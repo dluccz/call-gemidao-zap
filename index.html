@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- VAZA DAQUI MULEKE, TU NAO TINHA NADA QUE TÁ AQUI EMBUSTE, SAI -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Gemidão do Zap Free</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Gemidão do Zap</h1>
+        <p>Envie gratuitamente o gemidão do zap por ligação para seus "amigos" rsrsrs</p>
+        <hr>
+      </div>
+      <div class="col-md-4 ml-auto mr-auto">
+        <div class="form-group">
+          <label for="from">Número que vai ligar</label>
+          <input type="number" class="form-control" id="from" placeholder="22 22222 2222">
+          <small id="emailHelp" class="form-text text-muted">Digite apenas números.</small>
+        </div>
+        <div class="form-group">
+          <label for="to">Número que vai receber</label>
+          <input type="number" class="form-control" id="to" placeholder="22 22222 2222">
+          <small id="emailHelp" class="form-text text-muted">Digite apenas números.</small>
+        </div>
+        <button class="btn btn-primary btn-block" style="coursor: pointer" id="send" onclick="send()">Ligar</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 ml-auto mr-auto text-center mt-2">
+        <hr>
+        <a  href="whatsapp://send?text=https://bit.ly/gemidaodozapfree"
+            target="_blank"
+            data-action="share/whatsapp/share"
+            class="btn btn-block d-md-none"
+            style="background: #25D366; color: #FFF;">
+          <i class="fa fa-whatsapp"></i>
+          Compartilhar no zapzap
+        </a>
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bit.ly/gemidaodozapfree"
+            target="_blank"
+            data-action="share/whatsapp/share"
+            class="btn btn-default btn-block"
+            style="background: #3b5998; color: #FFF;">
+          <i class="fa fa-facebook"></i>
+          Compartilhar no face
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="result" class="lead m-5 text-danger text-uppercase">
+  </div>
+  <div style="text-align:center">
+    <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6934296242213124"
+     data-ad-slot="2499572193"
+     data-ad-format="auto"></ins>
+  </div>
+</body>
+<script type="text/javascript">
+function send() {
+  /**
+   * VAMOS PARAR DE FUÇAR NO CODIGO DOS AMIGUINHOS?
+   * OBRIGADO
+   */
+  var container = document.createElement('div');
+  container.align = 'center';
+  var result = document.getElementById('result');
+  var audio = document.createElement('audio');
+  // audio.autoplay = true;
+  audio.play(); // @jaonoctus esteve aqui 😈
+  var source = document.createElement('source');
+  source.type = 'audio/mpeg';
+  source.src = 'gemidao.mp3';
+  var message = document.createTextNode('Pra você aprender a parar de ser filha da puta com os amiguinho');
+  audio.appendChild(source);
+  container.appendChild(audio);
+  container.appendChild(message);
+  result.appendChild(container);
+}
+</script>
+<!-- adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104485417-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
